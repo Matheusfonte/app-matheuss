@@ -1,3 +1,4 @@
+import {FiSearch} from 'react-icons/fi'
 import { useState } from 'react';
 import './styles.css';
 
@@ -41,9 +42,8 @@ function App() {
           onChange={(e) => setInput(e.target.value)}
         />
 
-        <button className="buttonSearch" onClick={handleSearch}
-        >Pesquisar
-
+        <button className="buttonSearch">
+          <FiSearch size={25} color='#FFF'/>
         </button>
       </div>
 
