@@ -42,7 +42,7 @@ function App() {
           onChange={(e) => setInput(e.target.value)}
         />
 
-        <button className="buttonSearch">
+        <button className="buttonSearch" onClick={handleSearch}>
           <FiSearch size={25} color='#FFF'/>
         </button>
       </div>
